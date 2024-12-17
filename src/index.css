@@ -1,0 +1,42 @@
+*{
+    font-family:"Poppins", sans-serif;;
+    
+}
+
+#Downloadcv{
+width: 250px;
+height: 55px;
+background: linear-gradient(90deg, #CB75F4 35.77%, #B66CF4 55.5%, #8247EF 100%);
+border-radius: 10px;
+align-items: center;
+justify-content:center;
+display: flex;
+color: white;
+font-weight: 550;
+margin-top: 50px;
+font-size: 20px;
+
+}
+
+#skill-container{
+    background-color: rgb(53, 52, 52);
+    width: 60rem;
+    height: auto;
+    border-radius: 10px;
+    margin: 5rem auto ;
+    padding-bottom: 10px;
+}
+
+#line1{
+    background-color: #8247EF;
+    width: 9.5rem;
+    height: 0.4rem;
+    margin-top: 5px;
+}
+
+#line2{
+    background-color: #8247EF;
+    width: 5rem;
+    height: 0.4rem;
+}
+

@@ -32,7 +32,7 @@ const About = () => {
           </p> 
         </div>
         <div className='w-full md:w-1/2 flex items-center justify-center p-8'>
-          <img src={image2} id="aboutme-image" className=" min-w-md rounded-lg  " data-aos="zoom-in" />
+          <img src={image2} id="aboutme-image" className=" rounded-lg  " data-aos="zoom-in" />
         </div>
       </div>
     </div>

@@ -43,8 +43,9 @@ font-size: 20px;
 }
 
 #aboutme-image{
-    min-width: 23rem;
-    width: 23rem;
+    min-width: 20rem;
+    width: 30rem;
+    
 
 }
 
@@ -68,6 +69,7 @@ font-size: 20px;
     justify-content: center;
     border-top-left-radius:7px ;
     border-bottom-left-radius:7px ;
+    
 }
 
 .icon-container img{

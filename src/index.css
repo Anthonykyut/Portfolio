@@ -1,0 +1,92 @@
+*{
+    font-family:"Poppins", sans-serif;;
+    
+}
+
+#Downloadcv{
+width: 250px;
+height: 55px;
+background: linear-gradient(90deg, #CB75F4 35.77%, #B66CF4 55.5%, #8247EF 100%);
+border-radius: 10px;
+align-items: center;
+justify-content:center;
+display: flex;
+color: white;
+font-weight: 550;
+margin-top: 50px;
+font-size: 20px;
+
+}
+
+#skill-container{
+    background-color: rgba(15, 15, 15, 0.836);
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    margin: 5rem auto ;
+    padding: 40px 40px 70px 40px;
+
+  
+}
+
+#line1{
+    background-color: #8247EF;
+    width: 9.5rem;
+    height: 0.4rem;
+    margin-top: 5px;
+}
+
+#line2{
+    background-color: #8247EF;
+    width: 5rem;
+    height: 0.4rem;
+}
+
+#aboutme-image{
+    min-width: 23rem;
+    width: 23rem;
+
+}
+
+.skills-book{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills{
+    margin-right: 20px;
+    margin-top: 14px;
+    display: flex;
+}
+
+.icon-container{
+    height: 3rem;
+    width: 3rem;
+    background-color: #ebe9e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius:7px ;
+    border-bottom-left-radius:7px ;
+}
+
+.icon-container img{
+    width: 15rem;
+    max-width: 100%;
+    height: 2rem;
+    width: auto;
+    
+}
+
+.skills-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 0px 20px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-weight: 550;
+}
+

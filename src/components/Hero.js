@@ -15,19 +15,20 @@ const Hero = () => {
           Aspiring Front-End Web Developer from Nueva Ecija. I am a 4th year student studying BSIT at Nueva Ecija University of Science and Technology.
         </p>
         <div className="flex justify-center md:justify-start items-center w-full">
-      <a 
-        href="/AnthonyBalderas-Resume.pdf" 
-        id="Downloadcv" 
-        className="inline-block mt-5 px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition">
-        Download CV
-      </a>
-    </div>
-
+          <a 
+            href="/AnthonyBalderas-Resume.pdf"  // Path to your PDF file in the public folder
+            download="AnthonyBalderas-Resume.pdf" // This ensures the file is downloaded instead of opened
+            id="Downloadcv" 
+            className="inline-block mt-5 px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition"
+          >
+            Download CV
+          </a>
+        </div>
       </div>
       
 
       <div className="w-full md:w-1/2 flex items-center justify-center">
-        <img src={picture} alt="Anthony Balderas" className=" md:max-w-md rounded-lg w-3/4 " />
+        <img src={picture} alt="Anthony Balderas" className="md:max-w-md rounded-lg w-3/4" />
       </div>
     </div>
   );

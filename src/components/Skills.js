@@ -9,16 +9,17 @@ import image5 from '../assets/bootstrap.png';
 import image6 from '../assets/php.png';
 import image7 from '../assets/mysql.png';
 import image8 from '../assets/figma.png';
+import image9 from '../assets/React.png';
 const Skills = () => {
 
    
     
     return (
-        <div className=' px-24 py-10'>
+        <div className='p-6 md:px-24 py-10'>
             <div className='text-center '>
                 <h2 className='text-4xl  font-medium mb-3'>My Skills</h2>
                 <div id='line2' className='m-auto mb-10' data-aos="fade-left"></div>
-                    <p className='text-xl px-8 text-center'> 
+                    <p className='text-xl align-justify sm:text-xl px-8 sm:text-center'> 
                         Throughout my Front-End development studies, I've gained familiarity with various technology stacks. 
                         Currently, my focus is on mastering the ReactJS framework to enhance my ability in creating engaging 
                         user interfaces and improving overall user experience.
@@ -28,6 +29,15 @@ const Skills = () => {
                 <div id="skill-container" className='mt-10 bg-black w-full h-auto p-10 text-white' data-aos="zoom-in-left">
                 <h3 className='mt-2 font-medium'>Front End</h3>
                     <div className='skills-book'>
+                        <div className='skills'>
+                            <div className='icon-container'>
+                                <img src={image9}  alt="Image" />
+                            </div>
+                            <div className='skills-text'>
+                                React JS
+                            </div>
+                        </div>
+
                         <div className='skills'>
                             <div className='icon-container'>
                                 <img src={image1}  alt="Image" />

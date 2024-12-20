@@ -9,7 +9,7 @@ const Header = () => {
       {/* Logo Section */}
       <div className="w-full md:w-auto text-center md:text-left">
         <p className="font-poppins text-2xl font-bold">
-          <span style={{ color: "#8708C4" }}>Anthony</span>Kyut.
+          <span style={{ color: "#8247EF" }}>Easy</span>Dev.
         </p>
       </div>
 

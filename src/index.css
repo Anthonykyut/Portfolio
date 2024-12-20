@@ -4,9 +4,9 @@
 }
 
 #Downloadcv{
+background: linear-gradient(90deg, #b759e6, #9821ed, #6e05d8);
 width: 250px;
 height: 55px;
-background: linear-gradient(90deg, #CB75F4 35.77%, #B66CF4 55.5%, #8247EF 100%);
 border-radius: 10px;
 align-items: center;
 justify-content:center;
@@ -25,7 +25,7 @@ font-size: 20px;
     border-radius: 10px;
     margin: 5rem auto ;
     padding: 40px 40px 70px 40px;
-
+    max-width: 57rem;
   
 }
 
@@ -92,3 +92,18 @@ font-size: 20px;
     font-weight: 550;
 }
 
+.waving-emoticon {
+    
+    display: inline-block;
+    transform-origin: bottom center;
+    animation: wave 2s infinite ease-in-out;
+  }
+  
+  @keyframes wave {
+    0% { transform: rotate(0); }
+    25% { transform: rotate(-15deg); }
+    50% { transform: rotate(0); }
+    75% { transform: rotate(15deg); }
+    100% { transform: rotate(0); }
+  }
+  

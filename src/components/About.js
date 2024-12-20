@@ -19,7 +19,7 @@ const About = () => {
       <div className='flex flex-col-reverse md:flex-row items-center justify-center mt-10'>
         <div className='w-full md:w-1/2 ml-0 md:ml-20'>
       
-          <h2 className='text-2xl text-center md:text-left md:text-3xl font-medium mb-4'>Personal Details</h2>
+          <h2 className='text-2xl text-center md:text-left md:text-3xl font-medium mb-4'> Personal Details </h2>
         
           <div className='w-full flex items-center justify-center md:items-start md:justify-start'>
             <div id='line1' className='mb-10 ' data-aos="fade-right"></div>

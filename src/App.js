@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -30,3 +31,24 @@ const App = () => {
 };
 
 export default App;
+=======
+
+import Header from "./components/Header"
+import Hero from "./components/Hero"
+import About from "./components/About"
+import Skills from "./components/Skills"
+import Button from "./components/Button"
+
+
+function App(){
+    return(
+        <div> 
+            <Header/>
+            <Hero/>
+            <About/>
+            <Skills/>
+        </div>
+        
+    )
+}export default App
+>>>>>>> 1db729d18ed853b2e69830f9e92b52603a5be278

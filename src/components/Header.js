@@ -5,6 +5,8 @@ import linkedin from '../assets/linkedin.png';
 import home from "../assets/home.png";
 import skills from "../assets/skills.png";
 import profile from "../assets/profile.png";
+import myproject from "../assets/myproject.png"
+
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -113,7 +115,7 @@ const Header = () => {
           </a>
           <a href="#projects">
             <div className={`nav-content ${activeLink === '#projects' ? 'active-link' : ''}`}>
-              <img src={skills} alt="Projects" />
+              <img src={myproject} alt="Projects" />
             </div>
           </a>
         </div>

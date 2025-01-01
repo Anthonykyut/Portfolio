@@ -17,7 +17,7 @@ const Skills = () => {
    
     
     return (
-        <div className='p-6 md:px-24 py-10'>
+        <div className='p-6  md:px-24 py-10'>
             <div className='text-center '>
                 <h2 className='text-4xl  font-medium mb-3'>My Skills</h2>
                 <div id='line2' className='m-auto mb-10' data-aos="fade-left"></div>

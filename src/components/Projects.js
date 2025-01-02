@@ -1,5 +1,5 @@
 import React from 'react'
-
+import img1 from '../assets/maintenance.png'
 const Projects = () => {
   return (
     <div className='p-6 md:px-24 py-10'>
@@ -14,8 +14,12 @@ const Projects = () => {
                     </p>
         </div>
         <div id='project-container'> 
-            
-    
+        <h3 className='text-center text-white text-3xl font-semibold'> Under Construction</h3>
+        <div className='flex align-center justify-center '>
+
+          
+            <img src={img1} style={{maxWidth:"100%", width:"80%"}}></img>
+            </div>  
 
         </div>
 

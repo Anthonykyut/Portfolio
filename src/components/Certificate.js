@@ -12,6 +12,7 @@ import pic3 from '../certificate/3.png';
 import pic4 from '../certificate/4.png';
 import pic5 from '../certificate/5.png';
 import pic6 from '../certificate/6.png';
+import pic7 from '../certificate/7.png';
 
 
 const Certificate = () => {
@@ -26,10 +27,11 @@ const Certificate = () => {
   const certificates = [
     { id: 1, image: pic1 },
     { id: 2, image: pic2},
-    { id: 3, image: pic3 },
+    { id: 3, image: pic7 },
     { id: 4, image: pic4 },
-    { id: 5, image: pic5 },
-    { id: 6, image: pic6 },
+    { id: 5, image: pic6},
+    { id: 6, image: pic5 },
+    { id: 7, image: pic3 },
   ];
 
   return (

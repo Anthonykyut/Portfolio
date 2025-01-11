@@ -6,7 +6,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Certificate from './components/Certificate';
-import DarkModeToggle from './components/Darkmode';
+
 const App = () => {
   return (
     <div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import proj1 from '../assets/proj1.png'
-import image1 from '../assets/javascript.png'
+
 
 
 

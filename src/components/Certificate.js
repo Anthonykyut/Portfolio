@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import 'swiper/css'; // Import Swiper styles
 
 import pic1 from '../certificate/1.png';
 import pic2 from '../certificate/2.png';

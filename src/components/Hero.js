@@ -3,6 +3,7 @@ import Typed from 'typed.js';  // Correctly import Typed.js
 import picture from "../assets/1.png";
 import '../index.css';
 
+
 const Hero = () => {
 
   useEffect(() => {
@@ -37,7 +38,7 @@ const Hero = () => {
         </p>
         
         <p className="mt-5 text-lg md:text-2xl">
-          Aspiring Front-End Web Developer from Nueva Ecija. I am a 4th year student studying BSIT at Nueva Ecija University of Science and Technology.
+          Aspiring Front-End Web Developer and UI/UX Designer from Nueva Ecija. I am a 4th year student studying BSIT at Nueva Ecija University of Science and Technology.
         </p>
         
         <div className="flex justify-center md:justify-start items-center w-full">
@@ -48,6 +49,7 @@ const Hero = () => {
             className="inline-block mt-5 px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition"
           >
             Download CV
+            
           </a>
         </div>
       </div>

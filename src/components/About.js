@@ -23,7 +23,7 @@ const About = () => {
           <div className='w-full flex items-center justify-center md:items-start md:justify-start'>
             <div id='line1' className='mb-10 ' data-aos="fade-right"></div>
           </div>
-          <p className='text-center p-3 sm:mb-4 text-xl text-left md:text-1xl text-justify' data-aos="fade-right">
+          <p className='text-center p-3 sm:mb-4 text-lg text-left md:text-g text-justify' data-aos="fade-right">
             I'm passionate about <span className='font-medium' style={{ color: "rgb(80 0 228)", fontweight:"bold"}}>Front-End Development</span>, where creativity and technology intersect. With HTML, CSS, and JavaScript, I craft captivating digital experiences, honing my skills with each line of code to leave my mark on the digital landscape, project by project.
           </p>
           <p className='mt-4 text-xl p-3 md:text-1xl text-justify' data-aos="fade-right">

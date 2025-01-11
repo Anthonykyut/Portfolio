@@ -6,7 +6,7 @@ import home from "../assets/home.png";
 import skills from "../assets/skills.png";
 import profile from "../assets/profile.png";
 import myproject from "../assets/myproject.png"
-
+import DarkModeToggle  from './Darkmode';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -93,6 +93,7 @@ const Header = () => {
             <img src={fb} alt="Facebook" />
           </a>
         </nav>
+      
       </header>
 
       {/* Navbar with Links */}

@@ -4,10 +4,13 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-
+import Footer from './components/Footer';
+import Certificate from './components/Certificate';
+import DarkModeToggle from './components/Darkmode';
 const App = () => {
   return (
     <div>
+     
       <Header />
       
      <section id="hero">
@@ -21,10 +24,19 @@ const App = () => {
       <section id="skills">
         <Skills />
       </section>
-
+    
       <section id="projects">
+        <Certificate />
+      </section>
+
+      <section >
         <Projects />
       </section>
+
+      <section>
+        <Footer/>
+      </section>
+    
     </div>
   );
 };

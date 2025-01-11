@@ -1,11 +1,11 @@
 *{
     font-family:"Poppins", sans-serif;;
-    
+   
 }
 .nav{
     margin: auto;
     position: fixed;
-    background-color:#414040;
+    background-color:#1f1e1e;
     width: 19rem;
     height: 3.5rem;
     bottom: 35px;
@@ -18,7 +18,7 @@
 }
 
 .nav a .nav-content:hover{
-    background-color: #383838;
+    background-color: #1e1b1e;
     border-radius: 50%;
     width: 3rem;
     height: 3rem;
@@ -165,13 +165,43 @@
     100% { transform: rotate(0); }
   }
 
-#project-container{
+
+
+.project-container img{
+    width: 20rem;
+}
+
+.proj-skill:hover{
+    background-color:#414040;
+    color: white;
+    padding: 7px 25px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 2px solid #414040 ;
+}
+
+.proj-skill{
+    background-color:#ffffff;
+    color: rgb(8, 8, 8);
+    padding: 7px 25px;
+    border-radius: 3px;
+    font-weight: 500;
+    border: 2px solid #414040 ;
+    
+}
+
+.certificate-container{
     background-color: rgba(15, 15, 15, 0.836);
     width: auto;
-    height: auto;
     border-radius: 10px;
-    margin: 5rem auto ;
-    padding: 40px 40px 70px 40px;
-    max-width: 57rem;
-    height: auto;
+    padding: 40px;
 }
+
+#footer{
+    background-color:#414040;
+    padding: 10vh 0 10vh 0;
+    
+}
+  
+  

@@ -29,7 +29,7 @@ const App = () => {
         <Certificate />
       </section>
 
-      <section >
+      <section id="projects">
         <Projects />
       </section>
 
